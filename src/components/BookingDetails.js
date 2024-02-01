@@ -7,7 +7,6 @@ const BookingDetails = () => {
   const [tickets, setTickets] = useState("");
 
   useEffect(() => {
-    // Retrieve form data from localStorage
     const storedData = localStorage.getItem("bookingData");
 
     if (storedData) {

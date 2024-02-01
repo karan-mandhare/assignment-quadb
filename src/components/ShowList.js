@@ -1,8 +1,7 @@
 import React from "react";
 import { IMG_URL } from "../constants/constant";
 import { useNavigate } from "react-router-dom";
-import { AiFillStar } from "react-icons/ai"; // Importing the star icon
-
+import { AiFillStar } from "react-icons/ai";
 const ShowList = ({ show }) => {
   const navigate = useNavigate();
 
@@ -30,8 +29,7 @@ const ShowList = ({ show }) => {
                 {rating.average ? (
                   <>
                     {rating.average}
-                    <AiFillStar className="ml-1 text-yellow-500" />{" "}
-                    {/* Star icon */}
+                    <AiFillStar className="ml-1 text-yellow-500" />
                   </>
                 ) : (
                   "-"

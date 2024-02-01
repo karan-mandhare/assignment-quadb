@@ -13,7 +13,6 @@ const ShowSummary = () => {
   );
 
   if (!filterdData) {
-    // Handle the case where the show is not found
     return <div>Show not found</div>;
   }
 
